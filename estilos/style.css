@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+
+}
+section#telefone {
+    position: absolute;
+    height: 627px;
+    width: 311px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.212) url('../imagens/frame-iphone.png') no-repeat;
+    background-size: 100%;
+    border: none;
+    box-shadow: 1px 5px 20px 15px rgba(0, 0, 0, 0.212);
+    border-radius: 10%;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 269px;
+}
